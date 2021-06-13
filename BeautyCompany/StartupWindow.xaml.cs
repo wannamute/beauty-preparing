@@ -26,5 +26,13 @@ namespace BeautyCompany
             Manager.Frame = MainFrame;
             Manager.Frame.Navigate(new EntryPage());
         }
+
+        private void MainFrame_ContentRendered(object sender, EventArgs e)
+        {
+            if (Manager.Frame.CanGoBack)
+                btnBack.Visibility = Visibility.Visible;
+            else
+                btnBack.Visibility = Visibility.Hidden;
+        }
     }
 }

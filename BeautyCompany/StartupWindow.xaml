@@ -16,6 +16,6 @@
         <TextBlock Text="Beauty" FontFamily="Tahoma" FontSize="44" HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center"></TextBlock>
         <Image Source="Resources/beauty_logo.png" Width="55" Margin="10" HorizontalAlignment="Left"></Image>
         <Button x:Name="btnBack" Content="Назад" HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
-        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered"></Frame>
     </Grid>
 </Window>
