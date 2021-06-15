@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Support\source\repos\BeautyCompany\BeautyCompany\obj\Debug\
+C:\Users\Yura\source\repos\beauty-preparing\BeautyCompany\obj\Debug\
 BeautyCompany
 none
 false
 DEBUG;TRACE
-C:\Users\Support\source\repos\BeautyCompany\BeautyCompany\App.xaml
-2138670898
+C:\Users\Yura\source\repos\beauty-preparing\BeautyCompany\App.xaml
+61610594200
 21750853300
-226834114
-19248226424
-EntryPage.xaml;StartupWindow.xaml;
+27992323043
+19535374968
+AddPage.xaml;EntryPage.xaml;ListPage.xaml;ServicePage.xaml;StartupWindow.xaml;TestPage.xaml;
 
 True
 

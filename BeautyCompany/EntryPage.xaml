@@ -10,8 +10,8 @@
 
     <Grid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button x:Name="clientMenu" Content="Клиент" Width="160" Height="60" FontSize="18" Margin="16"></Button>
-            <Button x:Name="adminMenu" Content="Администратор" Width="160" Height="60" FontSize="18" Margin="16"></Button>
+            <Button x:Name="clientMenu" Content="Клиент" Width="160" Height="60" FontSize="18" Margin="16" Click="clientMenu_Click"></Button>
+            <Button x:Name="adminMenu" Content="Администратор" Width="160" Height="60" FontSize="18" Margin="16" Click="adminMenu_Click"></Button>
         </StackPanel>
         
     </Grid>

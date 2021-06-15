@@ -24,5 +24,15 @@ namespace BeautyCompany
         {
             InitializeComponent();
         }
+
+        private void clientMenu_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.Frame.Navigate(new ServicePage());
+        }
+
+        private void adminMenu_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.Frame.Navigate(new TestPage());
+        }
     }
 }

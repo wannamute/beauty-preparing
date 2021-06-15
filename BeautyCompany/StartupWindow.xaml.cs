@@ -34,5 +34,10 @@ namespace BeautyCompany
             else
                 btnBack.Visibility = Visibility.Hidden;
         }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.Frame.GoBack();
+        }
     }
 }
